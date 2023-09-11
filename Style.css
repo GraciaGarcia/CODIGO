@@ -1,0 +1,24 @@
+body{
+    background-color: rgb(197, 194, 18);
+}
+
+.imagencircular1{
+    height: 350px;
+    border-radius: 250%;
+
+}
+.conteiner menu{
+    list-style: nome;
+    margin: o;
+    padding: o;
+    display: inline-block;
+    color: aliceblue;
+    background-color: black;
+}
+.button1{
+    display: inline-block;
+    background: salmon;
+    color: blanchedalmond;
+    padding: 10px 30px;
+    text-decoration: nome;
+}

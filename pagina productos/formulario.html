@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">   
+    <script defer src="form.js"></script>
+    <title>Formulario</title>
+    <link rel="stylesheet" href="index.css">
+
+   
+</head>
+
+<body><center>
+      <!-- formulario -->
+      <section class="registry-section">
+        <div class="form-container">
+            <div class="form-header">
+                <h2>CONTACTANOS</h2>
+            </div>
+            <form action="/user-form" method="post" class="form">
+                <div class="form-box">
+                    <label for="Nombre">Nombre</label>
+                    <input type="Nombre" name="Nombre" id="nombres" placeholder="Nombre">
+                    <small class="error-text">Introduce un Nombre valido</small>
+                </div>
+                <div class="form-box">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="emails" placeholder="info@gmail.com">
+                    <small class="error-text">Introduce un email valido</small>
+                </div>
+                
+                <div class="form-box">
+                    <label for="nickDNI">DNI</label>
+                    <input type="text" name="dni" id="dnis" placeholder="DNI">
+                    <small class="error-text">Introduce un número de DNI</small>
+                </div>
+
+                <div class="form-box">
+                    <label for="nickDNI">fecha de nacimiento</label>
+                    <input type="text" name="dni" id="dnis" placeholder="DNI">
+                    <small class="error-text">Introduce un número de DNI</small>
+                </div>
+                <div class="form-box">
+                    <label for="nickDNI">codigo porstal</label>
+                    <input type="text" name="dni" id="dnis" placeholder="DNI">
+                    <small class="error-text">Introduce un número de DNI</small>
+                </div>
+                <div class="form-box">
+                    <label for="nickMotivo">Comentario</label>
+                    <input type="text" name="nickMotivo" id="motivos">
+                    <small class="error-text">Introduce un motivo</small>
+                </div>
+                <button type="submit" id="submit-btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+    
+       <!-- pie de la página -->
+       <footer>
+        <div class="contacto">
+            <a href="mailto:tuemail@gmail.com">Gmail</a>
+            <p>Lugar: Tu dirección</p>
+            <a href="https://www.youtube.com/tucanal">YouTube</a>
+        </div>
+    </footer>
+
+</body></center>
+
+</html>

@@ -1,0 +1,179 @@
+/*encabezadode la pagina*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #4ac55ede;
+}
+
+
+header {
+    background-color: rgb(28, 29, 28);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.menu-toggle {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+
+.menu {
+    display: flex;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 70px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+
+.menu a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
+
+    .menu {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 50px;
+        right: 70px;
+        z-index: 1;
+        text-align: right;
+    }
+
+    .menu.active {
+        display: flex;
+    }
+}
+
+
+/*pie de pagina */
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.contacto a {
+    color: #fff;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.contacto p {
+    margin: 10px;
+}
+
+
+
+
+
+/*css de la parte del cuerpo de las imagenes con el testo en la parte de abajo*/
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido {
+    display: flex;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+   
+    
+}
+
+img {
+    max-width: 200px;
+    height: auto;
+    margin-right: 20px;
+    
+}
+
+.resumen {
+    
+   
+font-size: 16px;
+}
+
+@media (max-width: 768px) {
+    .contenido {
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+/*img con texto arriba css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}*/
+
+.contenedor-imagenes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.imagen-con-texto {
+    position: relative;
+    margin: 10px;
+}
+
+.imagen-con-texto img {
+    max-width: 200%;
+    height: auto;
+}
+
+.texto-superpuesto {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+
+  

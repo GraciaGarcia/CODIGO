@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: rgb(127, 228, 132);
+  }
+  
+  /*estilo del*/
+  header {
+    background-color: #2b2b2b;
+    color: #fff;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    color: #333;
+  }
+  
+  .proyecto {
+    border: 1px solid #1f1e1e;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+
+/*la parte del inicio*/
+  
+.inicio{
+    display: flex;
+}
+  
+  .imagen1{
+    width: 450px;
+    border-radius: 10px;
+    margin-left: 200px;
+  }
+
+
+
+.proyecto{
+  display: flex;
+}
+  

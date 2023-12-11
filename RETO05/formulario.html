@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="from.css">
+    <script defer src="form.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulario</title>
+      
+</head>
+
+<body>
+
+
+    <section class="registry-section">
+        <div class="form-container">
+            <div class="form-header">
+                <h2>Valle Grande</h2>
+            </div>
+            <form id="user-form" class="form">
+                <div class="form-box">
+                    <label for="nickName">Nombre y Apellido</label>
+                    <input type="text" name="nickName" id="nickName" placeholder="NavisCode">
+                    <small class="error-text">Introduce un nombre y apellido</small>
+                </div>
+                <div class="form-box">
+                    <label for="nickCelular">Celular</label>
+                    <input type="text" name="Celular" id="celulars" placeholder="Número">
+                    <small class="error-text">Introduce un número válido</small>
+                </div>
+            
+                <div class="form-box">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="info@gmail.com">
+                    <small class="error-text">Introduce un email valido</small>
+                </div>
+                <button type="submit" id="submit-btn" disabled>Enviar</button>
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
